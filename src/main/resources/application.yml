@@ -1,0 +1,20 @@
+
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+
+  datasource:
+    url: jdbc:postgresql://localhost:3308/feb_12_task
+    username: postgres
+    password: root123
+
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
